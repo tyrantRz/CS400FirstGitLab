@@ -1,0 +1,42 @@
+[33mcommit 8d6edd5ca956185ea2931a982acf8588a3382b40[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: tyrantRZ <zzhang2478@wisc.edu>
+Date:   Tue Jun 25 21:08:43 2024 -0500
+
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile
+
+[33mcommit 0d6f969b8865ec7cc1c203bedd6de0c14efc4b9c[m
+Author: tyrantRZ <zzhang2478@wisc.edu>
+Date:   Tue Jun 25 21:06:31 2024 -0500
+
+    Remove sensitive information from LabW3GitCloneLog.txt
+
+[33mcommit 651ef8d555153cd2325277b5110398e2f1204e28[m
+Author: tyrantRZ <zzhang2478@wisc.edu>
+Date:   Tue Jun 25 21:05:51 2024 -0500
+
+    Remove sensitive information from LabW3GitCloneLog.txt
+
+[33mcommit 81dab24e00795be387f91b217d13423764715fa6[m
+Author: tyrantRZ <zzhang2478@wisc.edu>
+Date:   Mon Jun 24 00:14:02 2024 -0500
+
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile
+
+[33mcommit fa8cecbdd5984fd56f74c78a5f420da31d9c4f1c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 6468e87 228d9eb
+Author: tyrantRZ <zzhang2478@wisc.edu>
+Date:   Sun Jun 23 21:53:37 2024 -0500
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 228d9ebcafe2931ec732cd2aabef165876340dde[m
+Author: tyrantRz <142293672+tyrantRz@users.noreply.github.com>
+Date:   Wed Jun 19 10:18:52 2024 +0800
+
+    Initial commit
+
+[33mcommit 6468e87584f96734912f32d8f1613a96a475ac60[m
+Author: zhouwisc <jzhou346@wisc.edu>
+Date:   Sun Jun 16 00:30:32 2024 -0500
+
+    First version committed by the instructor

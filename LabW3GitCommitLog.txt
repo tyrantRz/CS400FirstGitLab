@@ -1,0 +1,1740 @@
+Script started on 2024-06-25 21:07:30-05:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+[?2004h[zhibo@royal-18] (1)$ make
+[?2004ljava Main
+Beggining of testing the color class:
+What color do you want to change to? 
+red
+The new color is:red
+[?2004h[zhibo@royal-18] (2)$ make
+[?2004ljava Main
+Beggining of testing the color class:
+What color do you want to change to? 
+git b     blue
+Color change failed! 
+[?2004h[zhibo@royal-18] (3)$ make
+[?2004ljava Main
+Beggining of testing the color class:
+What color do you want to change to? 
+kkkkkk
+Color change failed! 
+[?2004h[zhibo@royal-18] (4)$ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mLabW3GitCommitLog.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h[zhibo@royal-18] (5)$ git add LabW3GitCommitLOg[K[Kog.txt
+[?2004l[?2004h[zhibo@royal-18] (6)$ git addd[K Color.java Main.java Makefile
+[?2004l[?2004h[zhibo@royal-18] (7)$ git commit -m "Completed the TODO part in the changeColor method in Color.java, and added the Makefile"
+[?2004l[main 8d6edd5] Completed the TODO part in the changeColor method in Color.java, and added the Makefile
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 LabW3GitCommitLog.txt
+[?2004h[zhibo@royal-18] (8)$ git push origin main
+[?2004lEnumerating objects: 15, done.
+Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Delta compression using up to 12 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/13)Writing objects:  15% (2/13)Writing objects:  23% (3/13)Writing objects:  30% (4/13)Writing objects:  46% (6/13)Writing objects:  53% (7/13)Writing objects:  61% (8/13)Writing objects:  69% (9/13)Writing objects:  76% (10/13)Writing objects:  84% (11/13)Writing objects:  92% (12/13)Writing objects: 100% (13/13)Writing objects: 100% (13/13), 4.81 KiB | 4.81 MiB/s, done.
+Total 13 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+remote: [1;31merror[m: GH013: Repository rule violations found for refs/heads/main.[K
+remote: 
+remote: - GITHUB PUSH PROTECTION[K
+remote:   —————————————————————————————————————————[K
+remote:     Resolve the following violations before pushing again[K
+remote: 
+remote:     - Push cannot contain secrets[K
+remote: 
+remote:     [K
+remote:      (?) Learn how to resolve a blocked push[K
+remote:      https://docs.github.com/code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection[K
+remote:     [K
+remote:     [K
+remote:       —— GitHub Personal Access Token ——————————————————————[K
+remote:        locations:[K
+remote:          - commit: 81dab24e00795be387f91b217d13423764715fa6[K
+remote:            path: LabW3GitCloneLog.txt:20[K
+remote:     [K
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.[K
+remote:        https://github.com/tyrantRz/CS400FirstGitLab/security/secret-scanning/unblock-secret/2iOgveKu9zcd7M5V4vlT2jKYhqz[K
+remote:     [K
+remote: 
+remote: 
+To https://github.com/tyrantRz/CS400FirstGitLab.git
+ [31m! [remote rejected][m main -> main (push declined due to repository rule violations)
+[31merror: failed to push some refs to 'https://github.com/tyrantRz/CS400FirstGitLab.git'
+[m[?2004h[zhibo@royal-18] (9)$ git push origin maincommit -m "Completed the TODO part in the changeColor method in Color.java, and added the Makefile"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush origin main[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --force
+[?2004lEnumerating objects: 15, done.
+Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Delta compression using up to 12 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/13)Writing objects:  15% (2/13)Writing objects:  23% (3/13)Writing objects:  30% (4/13)Writing objects:  46% (6/13)Writing objects:  53% (7/13)Writing objects:  61% (8/13)Writing objects:  69% (9/13)Writing objects:  76% (10/13)Writing objects:  84% (11/13)Writing objects:  92% (12/13)Writing objects: 100% (13/13)Writing objects: 100% (13/13), 4.81 KiB | 4.81 MiB/s, done.
+Total 13 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+remote: [1;31merror[m: GH013: Repository rule violations found for refs/heads/main.[K
+remote: 
+remote: - GITHUB PUSH PROTECTION[K
+remote:   —————————————————————————————————————————[K
+remote:     Resolve the following violations before pushing again[K
+remote: 
+remote:     - Push cannot contain secrets[K
+remote: 
+remote:     [K
+remote:      (?) Learn how to resolve a blocked push[K
+remote:      https://docs.github.com/code-security/secret-scanning/pushing-a-branch-blocked-by-push-protection[K
+remote:     [K
+remote:     [K
+remote:       —— GitHub Personal Access Token ——————————————————————[K
+remote:        locations:[K
+remote:          - commit: 81dab24e00795be387f91b217d13423764715fa6[K
+remote:            path: LabW3GitCloneLog.txt:20[K
+remote:     [K
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.[K
+remote:        https://github.com/tyrantRz/CS400FirstGitLab/security/secret-scanning/unblock-secret/2iOgveKu9zcd7M5V4vlT2jKYhqz[K
+remote:     [K
+remote: 
+remote: 
+To https://github.com/tyrantRz/CS400FirstGitLab.git
+ [31m! [remote rejected][m main -> main (push declined due to repository rule violations)
+[31merror: failed to push some refs to 'https://github.com/tyrantRz/CS400FirstGitLab.git'
+[m[?2004h[zhibo@royal-18] (10)$ /home/zhibo/.local/bin/git-filter-repo --path LabW3GitCloneLog.txt --invert-paths
+[?2004lAborting: Refusing to destructively overwrite repo history since
+this does not look like a fresh clone.
+  (expected freshly packed repo)
+Please operate on a fresh clone instead.  If you want to proceed
+anyway, use --force.
+[?2004h[zhibo@royal-18] (11)$ ls
+[?2004lColor.class  Color.java  LabW3GitCommitLog.txt  Main.class  Main.java  Makefile  README.md
+[?2004h[zhibo@royal-18] (12)$ git pull --rebase origin main
+[?2004lerror: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[?2004h[zhibo@royal-18] (13)$ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch LabW3GitCloneLog.txt' --prune-empty --tag-name-filter cat -- --all
+[?2004lWARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+
+Proceeding with filter-branch...
+
+Cannot rewrite branches: You have unstaged changes.
+[?2004h[zhibo@royal-18] (14)$ 
+[?2004l[?2004h[zhibo@royal-18] (14)$ exit[K[K[K[Kgit log
+[?2004l[?1h=[33mcommit 8d6edd5ca956185ea2931a982acf8588a3382b40[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:08:43 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit 0d6f969b8865ec7cc1c203bedd6de0c14efc4b9c[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:06:31 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 651ef8d555153cd2325277b5110398e2f1204e28[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:05:51 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 81dab24e00795be387f91b217d13423764715fa6[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Mon Jun 24 00:14:02 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit fa8cecbdd5984fd56f74c78a5f420da31d9c4f1c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 6468e87 228d9eb[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Sun Jun 23 21:53:37 2024 -0500[m
+[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K...skipping...
+[33mcommit 8d6edd5ca956185ea2931a982acf8588a3382b40[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:08:43 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit 0d6f969b8865ec7cc1c203bedd6de0c14efc4b9c[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:06:31 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 651ef8d555153cd2325277b5110398e2f1204e28[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:05:51 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 81dab24e00795be387f91b217d13423764715fa6[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Mon Jun 24 00:14:02 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit fa8cecbdd5984fd56f74c78a5f420da31d9c4f1c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 6468e87 228d9eb[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Sun Jun 23 21:53:37 2024 -0500[m
+[m
+:[K[K    Merge remote-tracking branch 'origin/main'[m
+:[K[K[HM[33mcommit 8d6edd5ca956185ea2931a982acf8588a3382b40[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+[30;1H[K:[K[K:[K[K-[Klog file: [Kee[K  [K--[Kii[K  [KHH[KEE[KAA[KDD[K~~[KNN[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K...skipping...
+[33mcommit 8d6edd5ca956185ea2931a982acf8588a3382b40[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:08:43 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit 0d6f969b8865ec7cc1c203bedd6de0c14efc4b9c[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:06:31 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 651ef8d555153cd2325277b5110398e2f1204e28[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:05:51 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 81dab24e00795be387f91b217d13423764715fa6[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Mon Jun 24 00:14:02 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit fa8cecbdd5984fd56f74c78a5f420da31d9c4f1c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 6468e87 228d9eb[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Sun Jun 23 21:53:37 2024 -0500[m
+[m
+:[K[K    Merge remote-tracking branch 'origin/main'[m
+:[K[K[HM[33mcommit 8d6edd5ca956185ea2931a982acf8588a3382b40[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+[30;1H[K:[K[K:[K[K-[Klog file: [Kee[K  [K--[Kii[K  [KHH[KEE[KAA[KDD[K~~[K44[K[K[7mLog file is already in use  (press RETURN)[27m[30;1H[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[33m[m[33m[m[1;36m[m[1;32mn[m[33m)[m[m
+[m
+[m
+[m
+or.java, and added the Makefile[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+or.java, and added the Makefile[m
+[m
+[33m[m[33m[m[1;31m[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+[m
+[m
+[m
+[m
+:[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[33mcommit 8d6edd5ca956185ea2931a982acf8588a3382b40[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:08:43 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit 0d6f969b8865ec7cc1c203bedd6de0c14efc4b9c[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:06:31 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 651ef8d555153cd2325277b5110398e2f1204e28[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:05:51 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 81dab24e00795be387f91b217d13423764715fa6[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Mon Jun 24 00:14:02 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit fa8cecbdd5984fd56f74c78a5f420da31d9c4f1c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 6468e87 228d9eb[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Sun Jun 23 21:53:37 2024 -0500[m
+[m
+:[K[K[K[7mDetermining length of file... (interrupt to abort)[27m[K[K:[K[K:[K[K:[K[K[K:[K[K    Merge remote-tracking branch 'origin/main'[m
+[m
+[33mcommit 228d9ebcafe2931ec732cd2aabef165876340dde[m[m
+Author: tyrantRz <142293672+tyrantRz@users.noreply.github.com>[m
+Date:   Wed Jun 19 10:18:52 2024 +0800[m
+[m
+    Initial commit[m
+[m
+[33mcommit 6468e87584f96734912f32d8f1613a96a475ac60[m[m
+Author: zhouwisc <jzhou346@wisc.edu>[m
+Date:   Sun Jun 16 00:30:32 2024 -0500[m
+[m
+    First version committed by the instructor[m
+[7m(END)[27m[K[K:[K88[K11[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[HM[33mcommit 651ef8d555153cd2325277b5110398e2f1204e28[m[m
+[HM[m
+[HM    Remove sensitive information from LabW3GitCloneLog.txt[m
+[HM[m
+[HMDate:   Tue Jun 25 21:06:31 2024 -0500[m
+[HMAuthor: tyrantRZ <zzhang2478@wisc.edu>[m
+[HM[33mcommit 0d6f969b8865ec7cc1c203bedd6de0c14efc4b9c[m[m
+[HM[m
+[HM    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[HM[m
+[HMDate:   Tue Jun 25 21:08:43 2024 -0500[m
+[HMAuthor: tyrantRZ <zzhang2478@wisc.edu>[m
+[HM[33mcommit 8d6edd5ca956185ea2931a982acf8588a3382b40[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+[30;1H[K:[K[K:[K22[K44[K    Merge remote-tracking branch 'origin/main'[m
+[m
+[33mcommit 228d9ebcafe2931ec732cd2aabef165876340dde[m[m
+Author: tyrantRz <142293672+tyrantRz@users.noreply.github.com>[m
+Date:   Wed Jun 19 10:18:52 2024 +0800[m
+[m
+    Initial commit[m
+[m
+[33mcommit 6468e87584f96734912f32d8f1613a96a475ac60[m[m
+Author: zhouwisc <jzhou346@wisc.edu>[m
+Date:   Sun Jun 16 00:30:32 2024 -0500[m
+[m
+    First version committed by the instructor[m
+[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[Kset mark: ...skipping...
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:05:51 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 81dab24e00795be387f91b217d13423764715fa6[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Mon Jun 24 00:14:02 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit fa8cecbdd5984fd56f74c78a5f420da31d9c4f1c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 6468e87 228d9eb[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Sun Jun 23 21:53:37 2024 -0500[m
+[m
+    Merge remote-tracking branch 'origin/main'[m
+[m
+[33mcommit 228d9ebcafe2931ec732cd2aabef165876340dde[m[m
+Author: tyrantRz <142293672+tyrantRz@users.noreply.github.com>[m
+Date:   Wed Jun 19 10:18:52 2024 +0800[m
+[m
+    Initial commit[m
+[m
+[33mcommit 6468e87584f96734912f32d8f1613a96a475ac60[m[m
+Author: zhouwisc <jzhou346@wisc.edu>[m
+Date:   Sun Jun 16 00:30:32 2024 -0500[m
+[m
+    First version committed by the instructor[m
+[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  ESC-U                Clear search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines.[m
+        ---------------------------------------------------[m
+        A search pattern may begin with one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+        ^W       WRAP search if no match found.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo previous tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+  t                 *  Go to the ([4mN[24m-th) next tag.[m
+  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+  {  (  [           *  Find close bracket } ) ].[m
+  }  )  ]           *  Find open bracket { ( [.[m
+  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m.[m
+        ---------------------------------------------------[m
+        Each "find close bracket" command goes forward to the close bracket [m
+          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[m
+  m[4m<letter>[24m            Mark the current top line with <letter>.[m
+  M[4m<letter>[24m            Mark the current bottom line with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+  ESC-M[4m<letter>[24m        Clear a mark.[m
+        ---------------------------------------------------[m
+        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the file[m
+             $  means  end of the file[m
+ ---------------------------------------------------------------------------[m
+[m
+                        [1mCHANGING[0m [1mFILES[0m[m
+[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[H[2J[HM  r  ^R  ^L            Repaint screen.[m
+[HM  ESC-F                Like F but stop when search pattern is found.[m
+[HM  F                    Forward forever; like "tail -f".[m
+[HM  ESC-{  ^LeftArrow    Left  to first column.[m
+[HM  ESC-}  ^RightArrow   Right to last column displayed.[m
+[HM  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+[HM  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+[HM  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[HM  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[HM  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[HM  w                 *  Backward one window (and set window to [4mN[24m).[m
+[HM  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[HM  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[HM  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[HM  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[HM  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[HM[m
+[HM                           [1mMOVING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM  q  :q  Q  :Q  ZZ     Exit.[m
+[HM  h  H                 Display this help.[m
+[HM[m
+[HM      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[HM      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[HM      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[HM[m
+[HM                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[HM[m
+[30;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  ESC-U                Clear search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines.[m
+        ---------------------------------------------------[m
+        A search pattern may begin with one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+        ^W       WRAP search if no match found.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K[H[2J[HM  r  ^R  ^L            Repaint screen.[m
+[HM  ESC-F                Like F but stop when search pattern is found.[m
+[HM  F                    Forward forever; like "tail -f".[m
+[HM  ESC-{  ^LeftArrow    Left  to first column.[m
+[HM  ESC-}  ^RightArrow   Right to last column displayed.[m
+[HM  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+[HM  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+[HM  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[HM  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[HM  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[HM  w                 *  Backward one window (and set window to [4mN[24m).[m
+[HM  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[HM  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[HM  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[HM  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[HM  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[HM[m
+[HM                           [1mMOVING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM  q  :q  Q  :Q  ZZ     Exit.[m
+[HM  h  H                 Display this help.[m
+[HM[m
+[HM      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[HM      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[HM      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[HM[m
+[HM                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[HM[m
+[30;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K...skipping...
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  ESC-U                Clear search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines.[m
+        ---------------------------------------------------[m
+        A search pattern may begin with one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+        ^W       WRAP search if no match found.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+  t                 *  Go to the ([4mN[24m-th) next tag.[m
+  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+  {  (  [           *  Find close bracket } ) ].[m
+  }  )  ]           *  Find open bracket { ( [.[m
+  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m.[m
+        ---------------------------------------------------[m
+        Each "find close bracket" command goes forward to the close bracket [m
+          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[m
+  m[4m<letter>[24m            Mark the current top line with <letter>.[m
+  M[4m<letter>[24m            Mark the current bottom line with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+  ESC-M[4m<letter>[24m        Clear a mark.[m
+        ---------------------------------------------------[m
+        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the file[m
+             $  means  end of the file[m
+ ---------------------------------------------------------------------------[m
+[m
+                        [1mCHANGING[0m [1mFILES[0m[m
+[m
+  :e [[4mfile[24m]            Examine a new file.[m
+  ^X^V                 Same as :e.[m
+  :n                *  Examine the ([4mN[24m-th) next file from the command line.[m
+  :p                *  Examine the ([4mN[24m-th) previous file from the command line.[m
+  :x                *  Examine the first (or [4mN[24m-th) file from the command line.[m
+  :d                   Delete the current file from the command line list.[m
+  =  ^G  :f            Print current file name.[m
+ ---------------------------------------------------------------------------[m
+[m
+                    [1mMISCELLANEOUS[0m [1mCOMMANDS[0m[m
+[m
+  -[4m<flag>[24m              Toggle a command line option [see OPTIONS below].[m
+  --[4m<name>[24m             Toggle a command line option, by name.[m
+  _[4m<flag>[24m              Display the setting of a command line option.[m
+  __[4m<name>[24m             Display the setting of an option, by name.[m
+  +[4mcmd[24m                 Execute the less cmd each time a new file is examined.[m
+[m
+  ![4mcommand[24m             Execute the shell command with $SHELL.[m
+  |[1mX[0m[4mcommand[24m            Pipe file between current pos & mark [1mX[0m to shell command.[m
+  s [4mfile[24m               Save input to a file.[m
+  v                    Edit the current file with $VISUAL or $EDITOR.[m
+  V                    Print version number of "less".[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mOPTIONS[0m[m
+[m
+        Most options may be changed either on the command line,[m
+        or from within less by using the - or -- command.[m
+        Options may be given in one of two forms: either a single[m
+        character preceded by a -, or a name preceded by --.[m
+[m
+  -?  ........  --help[m
+                  Display help (from command line).[m
+  -a  ........  --search-skip-screen[m
+                  Search skips current screen.[m
+  -A  ........  --SEARCH-SKIP-SCREEN[m
+                  Search starts just after target line.[m
+  -b [[4mN[24m]  ....  --buffers=[[4mN[24m][m
+                  Number of buffers.[m
+  -B  ........  --auto-buffers[m
+                  Don't automatically allocate buffers for pipes.[m
+  -c  ........  --clear-screen[m
+                  Repaint by clearing rather than scrolling.[m
+  -d  ........  --dumb[m
+                  Dumb terminal.[m
+  -D [1mx[0m[4mcolor[24m  .  --color=[1mx[0m[4mcolor[24m[m
+                  Set screen colors.[m
+  -e  -E  ....  --quit-at-eof  --QUIT-AT-EOF[m
+                  Quit at end of file.[m
+  -f  ........  --force[m
+                  Force open non-regular files.[m
+  -F  ........  --quit-if-one-screen[m
+                  Quit if entire file fits on first screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -g  ........  --hilite-search[m
+                  Highlight only last match for searches.[m
+  -G  ........  --HILITE-SEARCH[m
+                  Don't highlight any matches for searches.[m
+  -h [[4mN[24m]  ....  --max-back-scroll=[[4mN[24m][m
+                  Backward scroll limit.[m
+  -i  ........  --ignore-case[m
+                  Ignore case in searches that do not contain uppercase.[m
+  -I  ........  --IGNORE-CASE[m
+                  Ignore case in all searches.[m
+  -j [[4mN[24m]  ....  --jump-target=[[4mN[24m][m
+                  Screen position of target lines.[m
+  -J  ........  --status-column[m
+                  Display a status column at left edge of screen.[m
+  -k [[4mfile[24m]  .  --lesskey-file=[[4mfile[24m][m
+                  Use a lesskey file.[m
+  -K  ........  --quit-on-intr[m
+                  Exit less in response to ctrl-C.[m
+  -L  ........  --no-lessopen[m
+                  Ignore the LESSOPEN environment variable.[m
+  -m  -M  ....  --long-prompt  --LONG-PROMPT[m
+                  Set prompt style.[m
+  -n  -N  ....  --line-numbers  --LINE-NUMBERS[m
+                  Don't use line numbers.[m
+  -o [[4mfile[24m]  .  --log-file=[[4mfile[24m][m
+                  Copy to log file (standard input only).[m
+  -O [[4mfile[24m]  .  --LOG-FILE=[[4mfile[24m][m
+                  Copy to log file (unconditionally overwrite).[m
+  -p [[4mpattern[24m]  --pattern=[[4mpattern[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K...skipping...
+  -g  ........  --hilite-search[m
+                  Highlight only last match for searches.[m
+  -G  ........  --HILITE-SEARCH[m
+                  Don't highlight any matches for searches.[m
+  -h [[4mN[24m]  ....  --max-back-scroll=[[4mN[24m][m
+                  Backward scroll limit.[m
+  -i  ........  --ignore-case[m
+                  Ignore case in searches that do not contain uppercase.[m
+  -I  ........  --IGNORE-CASE[m
+                  Ignore case in all searches.[m
+  -j [[4mN[24m]  ....  --jump-target=[[4mN[24m][m
+                  Screen position of target lines.[m
+  -J  ........  --status-column[m
+                  Display a status column at left edge of screen.[m
+  -k [[4mfile[24m]  .  --lesskey-file=[[4mfile[24m][m
+                  Use a lesskey file.[m
+  -K  ........  --quit-on-intr[m
+                  Exit less in response to ctrl-C.[m
+  -L  ........  --no-lessopen[m
+                  Ignore the LESSOPEN environment variable.[m
+  -m  -M  ....  --long-prompt  --LONG-PROMPT[m
+                  Set prompt style.[m
+  -n  -N  ....  --line-numbers  --LINE-NUMBERS[m
+                  Don't use line numbers.[m
+  -o [[4mfile[24m]  .  --log-file=[[4mfile[24m][m
+                  Copy to log file (standard input only).[m
+  -O [[4mfile[24m]  .  --LOG-FILE=[[4mfile[24m][m
+                  Copy to log file (unconditionally overwrite).[m
+  -p [[4mpattern[24m]  --pattern=[[4mpattern[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K:[K..[K                  Start at pattern (from command line).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -P [[4mprompt[24m]   --prompt=[[4mprompt[24m][m
+                  Define new prompt.[m
+  -q  -Q  ....  --quiet  --QUIET  --silent --SILENT[m
+                  Quiet the terminal bell.[m
+  -r  -R  ....  --raw-control-chars  --RAW-CONTROL-CHARS[m
+                  Output "raw" control characters.[m
+  -s  ........  --squeeze-blank-lines[m
+                  Squeeze multiple blank lines.[m
+  -S  ........  --chop-long-lines[m
+                  Chop (truncate) long lines rather than wrapping.[m
+  -t [[4mtag[24m]  ..  --tag=[[4mtag[24m][m
+                  Find a tag.[m
+  -T [[4mtagsfile[24m] --tag-file=[[4mtagsfile[24m][m
+                  Use an alternate tags file.[m
+  -u  -U  ....  --underline-special  --UNDERLINE-SPECIAL[m
+                  Change handling of backspaces.[m
+  -V  ........  --version[m
+                  Display the version number of "less".[m
+  -w  ........  --hilite-unread[m
+                  Highlight first new line after forward-screen.[m
+  -W  ........  --HILITE-UNREAD[m
+                  Highlight first new line after any forward movement.[m
+  -x [[4mN[24m[,...]]  --tabs=[[4mN[24m[,...]][m
+                  Set tab stops.[m
+  -X  ........  --no-init[m
+                  Don't use termcap init/deinit strings.[m
+  -y [[4mN[24m]  ....  --max-forw-scroll=[[4mN[24m][m
+                  Forward scroll limit.[m
+  -z [[4mN[24m]  ....  --window=[[4mN[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K                  Set size of window.[m
+  -" [[4mc[24m[[4mc[24m]]  .  --quotes=[[4mc[24m[[4mc[24m]][m
+                  Set shell quote characters.[m
+  -~  ........  --tilde[m
+                  Don't display tildes after end of file.[m
+  -# [[4mN[24m]  ....  --shift=[[4mN[24m][m
+                  Set horizontal scroll amount (0 = one half screen width).[m
+                --file-size[m
+                  Automatically determine the size of the input file.[m
+                --follow-name[m
+                  The F command changes files if the input file is renamed.[m
+                --incsearch[m
+                  Search file as each pattern character is typed in.[m
+                --line-num-width=N[m
+                  Set the width of the -N line number field to N characters.[m
+                --mouse[m
+                  Enable mouse input.[m
+                --no-keypad[m
+                  Don't send termcap keypad init/deinit strings.[m
+                --no-histdups[m
+                  Remove duplicates from command history.[m
+                --rscroll=C[m
+                  Set the character used to mark truncated lines.[m
+                --save-marks[m
+                  Retain marks across invocations of less.[m
+                --status-col-width=N[m
+                  Set the width of the -J status column to N characters.[m
+                --use-backslash[m
+                  Subsequent options use backslash as escape char.[m
+                --use-color[m
+                  Enables colored text.[m
+                --wheel-lines=N[m
+                  Each click of the mouse wheel moves N lines.[m
+[m
+[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mLINE[0m [1mEDITING[0m[m
+[m
+        These keys can be used to edit text being entered [m
+        on the "command line" at the bottom of the screen.[m
+[m
+ RightArrow ..................... ESC-l ... Move cursor right one character.[m
+ LeftArrow ...................... ESC-h ... Move cursor left one character.[m
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.[m
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.[m
+ HOME ........................... ESC-0 ... Move cursor to start of line.[m
+ END ............................ ESC-$ ... Move cursor to end of line.[m
+ BACKSPACE ................................ Delete char to left of cursor.[m
+ DELETE ......................... ESC-x ... Delete char under cursor.[m
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.[m
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.[m
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.[m
+ UpArrow ........................ ESC-k ... Retrieve previous command line.[m
+ DownArrow ...................... ESC-j ... Retrieve next command line.[m
+ TAB ...................................... Complete filename & cycle.[m
+ SHIFT-TAB ...................... ESC-TAB   Complete filename & reverse cycle.[m
+ ctrl-L ................................... Complete filename, list all.[m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[HM                  Subsequent options use backslash as escape char.[m
+[30;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K ctrl-L ................................... Complete filename, list all.[m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K:[K66[K55[K11[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K:[K88[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K...skipping...
+                --use-color[m
+                  Enables colored text.[m
+                --wheel-lines=N[m
+                  Each click of the mouse wheel moves N lines.[m
+[m
+[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mLINE[0m [1mEDITING[0m[m
+[m
+        These keys can be used to edit text being entered [m
+        on the "command line" at the bottom of the screen.[m
+[m
+ RightArrow ..................... ESC-l ... Move cursor right one character.[m
+ LeftArrow ...................... ESC-h ... Move cursor left one character.[m
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.[m
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.[m
+ HOME ........................... ESC-0 ... Move cursor to start of line.[m
+ END ............................ ESC-$ ... Move cursor to end of line.[m
+ BACKSPACE ................................ Delete char to left of cursor.[m
+ DELETE ......................... ESC-x ... Delete char under cursor.[m
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.[m
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.[m
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.[m
+ UpArrow ........................ ESC-k ... Retrieve previous command line.[m
+ DownArrow ...................... ESC-j ... Retrieve next command line.[m
+ TAB ...................................... Complete filename & cycle.[m
+ SHIFT-TAB ...................... ESC-TAB   Complete filename & reverse cycle.[m
+ ctrl-L ................................... Complete filename, list all.[m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K-[Klog file: [Kee[Knn[Kss[Kii[Ktt[Kii[Kvv[Kee[K  [Kii[Knn[Kff[Koo[Krr[Kmm[Kaa[Ktt[Kii[Koo[Knn[K  [Kff[Krr[Koo[Kmm[K  [KLL[Kaa[Kbb[KWW[K33[KGG[Kii[Ktt[KCC[Kll[Koo[Knn[Kee[KLL[Koo[Kgg[K..[Ktt[Kxx[Ktt[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K:[K00[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K:[K66[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K:[K99[K66[K99[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K...skipping...
+                --use-color[m
+                  Enables colored text.[m
+                --wheel-lines=N[m
+                  Each click of the mouse wheel moves N lines.[m
+[m
+[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mLINE[0m [1mEDITING[0m[m
+[m
+        These keys can be used to edit text being entered [m
+        on the "command line" at the bottom of the screen.[m
+[m
+ RightArrow ..................... ESC-l ... Move cursor right one character.[m
+ LeftArrow ...................... ESC-h ... Move cursor left one character.[m
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.[m
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.[m
+ HOME ........................... ESC-0 ... Move cursor to start of line.[m
+ END ............................ ESC-$ ... Move cursor to end of line.[m
+ BACKSPACE ................................ Delete char to left of cursor.[m
+ DELETE ......................... ESC-x ... Delete char under cursor.[m
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.[m
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.[m
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.[m
+ UpArrow ........................ ESC-k ... Retrieve previous command line.[m
+ DownArrow ...................... ESC-j ... Retrieve next command line.[m
+ TAB ...................................... Complete filename & cycle.[m
+ SHIFT-TAB ...................... ESC-TAB   Complete filename & reverse cycle.[m
+ ctrl-L ................................... Complete filename, list all.[m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K-[Klog file: [Kee[Knn[Kss[Kii[Ktt[Kii[Kvv[Kee[K  [Kii[Knn[Kff[Koo[Krr[Kmm[Kaa[Ktt[Kii[Koo[Knn[K  [Kff[Krr[Koo[Kmm[K  [KLL[Kaa[Kbb[KWW[K33[KGG[Kii[Ktt[KCC[Kll[Koo[Knn[Kee[KLL[Koo[Kgg[K..[Ktt[Kxx[Ktt[K[K[7mLog file is already in use  (press RETURN)[27m[30;1H[K[K[H[2J[HM  r  ^R  ^L            Repaint screen.[m
+[HM  ESC-F                Like F but stop when search pattern is found.[m
+[HM  F                    Forward forever; like "tail -f".[m
+[HM  ESC-{  ^LeftArrow    Left  to first column.[m
+[HM  ESC-}  ^RightArrow   Right to last column displayed.[m
+[HM  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+[HM  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+[HM  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[HM  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[HM  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[HM  w                 *  Backward one window (and set window to [4mN[24m).[m
+[HM  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[HM  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[HM  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[HM  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[HM  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[HM[m
+[HM                           [1mMOVING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM  q  :q  Q  :Q  ZZ     Exit.[m
+[HM  h  H                 Display this help.[m
+[HM[m
+[HM      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[HM      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[HM      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[HM[m
+[HM                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[HM[m
+[30;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  R                    Repaint screen, discarding buffered input.[m
+        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  ESC-U                Clear search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines.[m
+        ---------------------------------------------------[m
+        A search pattern may begin with one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+        ^W       WRAP search if no match found.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K:[K88[K  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+  t                 *  Go to the ([4mN[24m-th) next tag.[m
+  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+  {  (  [           *  Find close bracket } ) ].[m
+  }  )  ]           *  Find open bracket { ( [.[m
+  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K:[K66[K  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m.[m
+        ---------------------------------------------------[m
+        Each "find close bracket" command goes forward to the close bracket [m
+          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+  m[4m<letter>[24m            Mark the current top line with <letter>.[m
+  M[4m<letter>[24m            Mark the current bottom line with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+  ESC-M[4m<letter>[24m        Clear a mark.[m
+        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the file[m
+             $  means  end of the file[m
+ ---------------------------------------------------------------------------[m
+[m
+                        [1mCHANGING[0m [1mFILES[0m[m
+[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K:[K55[K  :e [[4mfile[24m]            Examine a new file.[m
+  ^X^V                 Same as :e.[m
+  :n                *  Examine the ([4mN[24m-th) next file from the command line.[m
+  :p                *  Examine the ([4mN[24m-th) previous file from the command line.[m
+  :x                *  Examine the first (or [4mN[24m-th) file from the command line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[H[2J[HM  r  ^R  ^L            Repaint screen.[m
+[HM  ESC-F                Like F but stop when search pattern is found.[m
+[HM  F                    Forward forever; like "tail -f".[m
+[HM  ESC-{  ^LeftArrow    Left  to first column.[m
+[HM  ESC-}  ^RightArrow   Right to last column displayed.[m
+[HM  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+[HM  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+[HM  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[HM  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[HM  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[HM  w                 *  Backward one window (and set window to [4mN[24m).[m
+[HM  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[HM  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[HM  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[HM  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[HM  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[HM[m
+[HM                           [1mMOVING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM  q  :q  Q  :Q  ZZ     Exit.[m
+[HM  h  H                 Display this help.[m
+[HM[m
+[HM      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[HM      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[HM      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[HM[m
+[HM                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[HM[m
+[30;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  ESC-U                Clear search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines.[m
+        ---------------------------------------------------[m
+        A search pattern may begin with one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+        ^W       WRAP search if no match found.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+  t                 *  Go to the ([4mN[24m-th) next tag.[m
+  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+  {  (  [           *  Find close bracket } ) ].[m
+  }  )  ]           *  Find open bracket { ( [.[m
+  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m.[m
+        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Each "find close bracket" command goes forward to the close bracket [m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[m
+  m[4m<letter>[24m            Mark the current top line with <letter>.[m
+  M[4m<letter>[24m            Mark the current bottom line with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+  ESC-M[4m<letter>[24m        Clear a mark.[m
+        ---------------------------------------------------[m
+        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the file[m
+             $  means  end of the file[m
+ ---------------------------------------------------------------------------[m
+[m
+                        [1mCHANGING[0m [1mFILES[0m[m
+[m
+  :e [[4mfile[24m]            Examine a new file.[m
+  ^X^V                 Same as :e.[m
+  :n                *  Examine the ([4mN[24m-th) next file from the command line.[m
+  :p                *  Examine the ([4mN[24m-th) previous file from the command line.[m
+  :x                *  Examine the first (or [4mN[24m-th) file from the command line.[m
+  :d                   Delete the current file from the command line list.[m
+  =  ^G  :f            Print current file name.[m
+ ---------------------------------------------------------------------------[m
+[m
+                    [1mMISCELLANEOUS[0m [1mCOMMANDS[0m[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo previous tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+  -[4m<flag>[24m              Toggle a command line option [see OPTIONS below].[m
+  --[4m<name>[24m             Toggle a command line option, by name.[m
+  _[4m<flag>[24m              Display the setting of a command line option.[m
+  __[4m<name>[24m             Display the setting of an option, by name.[m
+  +[4mcmd[24m                 Execute the less cmd each time a new file is examined.[m
+[m
+  ![4mcommand[24m             Execute the shell command with $SHELL.[m
+  |[1mX[0m[4mcommand[24m            Pipe file between current pos & mark [1mX[0m to shell command.[m
+  s [4mfile[24m               Save input to a file.[m
+  v                    Edit the current file with $VISUAL or $EDITOR.[m
+  V                    Print version number of "less".[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mOPTIONS[0m[m
+[m
+        Most options may be changed either on the command line,[m
+        or from within less by using the - or -- command.[m
+        Options may be given in one of two forms: either a single[m
+        character preceded by a -, or a name preceded by --.[m
+[m
+  -?  ........  --help[m
+                  Display help (from command line).[m
+  -a  ........  --search-skip-screen[m
+                  Search skips current screen.[m
+  -A  ........  --SEARCH-SKIP-SCREEN[m
+                  Search starts just after target line.[m
+  -b [[4mN[24m]  ....  --buffers=[[4mN[24m][m
+                  Number of buffers.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[H[2J[HM  r  ^R  ^L            Repaint screen.[m
+[HM  ESC-F                Like F but stop when search pattern is found.[m
+[HM  F                    Forward forever; like "tail -f".[m
+[HM  ESC-{  ^LeftArrow    Left  to first column.[m
+[HM  ESC-}  ^RightArrow   Right to last column displayed.[m
+[HM  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+[HM  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+[HM  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[HM  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[HM  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[HM  w                 *  Backward one window (and set window to [4mN[24m).[m
+[HM  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[HM  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[HM  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[HM  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[HM  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[HM[m
+[HM                           [1mMOVING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM  q  :q  Q  :Q  ZZ     Exit.[m
+[HM  h  H                 Display this help.[m
+[HM[m
+[HM      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[HM      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[HM      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[HM[m
+[HM                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[HM[m
+[30;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  ESC-U                Clear search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines.[m
+        ---------------------------------------------------[m
+        A search pattern may begin with one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+        ^W       WRAP search if no match found.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K[H[2J[HM  r  ^R  ^L            Repaint screen.[m
+[HM  ESC-F                Like F but stop when search pattern is found.[m
+[HM  F                    Forward forever; like "tail -f".[m
+[HM  ESC-{  ^LeftArrow    Left  to first column.[m
+[HM  ESC-}  ^RightArrow   Right to last column displayed.[m
+[HM  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+[HM  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+[HM  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[HM  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[HM  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[HM  w                 *  Backward one window (and set window to [4mN[24m).[m
+[HM  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[HM  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[HM  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[HM  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[HM  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[HM[m
+[HM                           [1mMOVING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM  q  :q  Q  :Q  ZZ     Exit.[m
+[HM  h  H                 Display this help.[m
+[HM[m
+[HM      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[HM      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[HM      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[HM[m
+[HM                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[HM[m
+[30;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K...skipping...
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mSEARCHING[0m[m
+[m
+  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+  N                 *  Repeat previous search in reverse direction.[m
+  ESC-n             *  Repeat previous search, spanning files.[m
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+  ESC-u                Undo (toggle) search highlighting.[m
+  ESC-U                Clear search highlighting.[m
+  &[4mpattern[24m          *  Display only matching lines.[m
+        ---------------------------------------------------[m
+        A search pattern may begin with one or more of:[m
+        ^N or !  Search for NON-matching lines.[m
+        ^E or *  Search multiple files (pass thru END OF FILE).[m
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).[m
+        ^K       Highlight matches, but don't move (KEEP position).[m
+        ^R       Don't use REGULAR EXPRESSIONS.[m
+        ^W       WRAP search if no match found.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mJUMPING[0m[m
+[m
+  g  <  ESC-<       *  Go to first line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  G  >  ESC->       *  Go to last line in file (or line [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  p  %              *  Go to beginning of file (or [4mN[24m percent into file).[m
+  t                 *  Go to the ([4mN[24m-th) next tag.[m
+  T                 *  Go to the ([4mN[24m-th) previous tag.[m
+  {  (  [           *  Find close bracket } ) ].[m
+  }  )  ]           *  Find open bracket { ( [.[m
+  ESC-^F [4m<c1>[24m [4m<c2>[24m  *  Find close bracket [4m<c2>[24m.[m
+  ESC-^B [4m<c1>[24m [4m<c2>[24m  *  Find open bracket [4m<c1>[24m.[m
+        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Each "find close bracket" command goes forward to the close bracket [m
+          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[m
+  m[4m<letter>[24m            Mark the current top line with <letter>.[m
+  M[4m<letter>[24m            Mark the current bottom line with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+  ESC-M[4m<letter>[24m        Clear a mark.[m
+        ---------------------------------------------------[m
+        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the file[m
+             $  means  end of the file[m
+ ---------------------------------------------------------------------------[m
+[m
+                        [1mCHANGING[0m [1mFILES[0m[m
+[m
+  :e [[4mfile[24m]            Examine a new file.[m
+  ^X^V                 Same as :e.[m
+  :n                *  Examine the ([4mN[24m-th) next file from the command line.[m
+  :p                *  Examine the ([4mN[24m-th) previous file from the command line.[m
+  :x                *  Examine the first (or [4mN[24m-th) file from the command line.[m
+  :d                   Delete the current file from the command line list.[m
+  =  ^G  :f            Print current file name.[m
+ ---------------------------------------------------------------------------[m
+[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K...skipping...
+        Each "find close bracket" command goes forward to the close bracket [m
+          matching the ([4mN[24m-th) open bracket in the top line.[m
+        Each "find open bracket" command goes backward to the open bracket [m
+          matching the ([4mN[24m-th) close bracket in the bottom line.[m
+[m
+  m[4m<letter>[24m            Mark the current top line with <letter>.[m
+  M[4m<letter>[24m            Mark the current bottom line with <letter>.[m
+  '[4m<letter>[24m            Go to a previously marked position.[m
+  ''                   Go to the previous position.[m
+  ^X^X                 Same as '.[m
+  ESC-M[4m<letter>[24m        Clear a mark.[m
+        ---------------------------------------------------[m
+        A mark is any upper-case or lower-case letter.[m
+        Certain marks are predefined:[m
+             ^  means  beginning of the file[m
+             $  means  end of the file[m
+ ---------------------------------------------------------------------------[m
+[m
+                        [1mCHANGING[0m [1mFILES[0m[m
+[m
+  :e [[4mfile[24m]            Examine a new file.[m
+  ^X^V                 Same as :e.[m
+  :n                *  Examine the ([4mN[24m-th) next file from the command line.[m
+  :p                *  Examine the ([4mN[24m-th) previous file from the command line.[m
+  :x                *  Examine the first (or [4mN[24m-th) file from the command line.[m
+  :d                   Delete the current file from the command line list.[m
+  =  ^G  :f            Print current file name.[m
+ ---------------------------------------------------------------------------[m
+[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K:[K..[K                    [1mMISCELLANEOUS[0m [1mCOMMANDS[0m[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+  -[4m<flag>[24m              Toggle a command line option [see OPTIONS below].[m
+  --[4m<name>[24m             Toggle a command line option, by name.[m
+  _[4m<flag>[24m              Display the setting of a command line option.[m
+  __[4m<name>[24m             Display the setting of an option, by name.[m
+  +[4mcmd[24m                 Execute the less cmd each time a new file is examined.[m
+[m
+  ![4mcommand[24m             Execute the shell command with $SHELL.[m
+  |[1mX[0m[4mcommand[24m            Pipe file between current pos & mark [1mX[0m to shell command.[m
+  s [4mfile[24m               Save input to a file.[m
+  v                    Edit the current file with $VISUAL or $EDITOR.[m
+  V                    Print version number of "less".[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mOPTIONS[0m[m
+[m
+        Most options may be changed either on the command line,[m
+        or from within less by using the - or -- command.[m
+        Options may be given in one of two forms: either a single[m
+        character preceded by a -, or a name preceded by --.[m
+[m
+  -?  ........  --help[m
+                  Display help (from command line).[m
+  -a  ........  --search-skip-screen[m
+                  Search skips current screen.[m
+  -A  ........  --SEARCH-SKIP-SCREEN[m
+                  Search starts just after target line.[m
+  -b [[4mN[24m]  ....  --buffers=[[4mN[24m][m
+                  Number of buffers.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K  -B  ........  --auto-buffers[m
+                  Don't automatically allocate buffers for pipes.[m
+  -c  ........  --clear-screen[m
+                  Repaint by clearing rather than scrolling.[m
+  -d  ........  --dumb[m
+                  Dumb terminal.[m
+  -D [1mx[0m[4mcolor[24m  .  --color=[1mx[0m[4mcolor[24m[m
+                  Set screen colors.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -e  -E  ....  --quit-at-eof  --QUIT-AT-EOF[m
+                  Quit at end of file.[m
+  -f  ........  --force[m
+                  Force open non-regular files.[m
+  -F  ........  --quit-if-one-screen[m
+                  Quit if entire file fits on first screen.[m
+  -g  ........  --hilite-search[m
+                  Highlight only last match for searches.[m
+  -G  ........  --HILITE-SEARCH[m
+                  Don't highlight any matches for searches.[m
+  -h [[4mN[24m]  ....  --max-back-scroll=[[4mN[24m][m
+                  Backward scroll limit.[m
+  -i  ........  --ignore-case[m
+                  Ignore case in searches that do not contain uppercase.[m
+  -I  ........  --IGNORE-CASE[m
+                  Ignore case in all searches.[m
+  -j [[4mN[24m]  ....  --jump-target=[[4mN[24m][m
+                  Screen position of target lines.[m
+  -J  ........  --status-column[m
+                  Display a status column at left edge of screen.[m
+  -k [[4mfile[24m]  .  --lesskey-file=[[4mfile[24m][m
+                  Use a lesskey file.[m
+  -K  ........  --quit-on-intr[m
+                  Exit less in response to ctrl-C.[m
+  -L  ........  --no-lessopen[m
+                  Ignore the LESSOPEN environment variable.[m
+  -m  -M  ....  --long-prompt  --LONG-PROMPT[m
+                  Set prompt style.[m
+  -n  -N  ....  --line-numbers  --LINE-NUMBERS[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Don't use line numbers.[m
+  -o [[4mfile[24m]  .  --log-file=[[4mfile[24m][m
+                  Copy to log file (standard input only).[m
+  -O [[4mfile[24m]  .  --LOG-FILE=[[4mfile[24m][m
+                  Copy to log file (unconditionally overwrite).[m
+  -p [[4mpattern[24m]  --pattern=[[4mpattern[24m][m
+                  Start at pattern (from command line).[m
+  -P [[4mprompt[24m]   --prompt=[[4mprompt[24m][m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Define new prompt.[m
+  -q  -Q  ....  --quiet  --QUIET  --silent --SILENT[m
+                  Quiet the terminal bell.[m
+  -r  -R  ....  --raw-control-chars  --RAW-CONTROL-CHARS[m
+                  Output "raw" control characters.[m
+  -s  ........  --squeeze-blank-lines[m
+                  Squeeze multiple blank lines.[m
+  -S  ........  --chop-long-lines[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Chop (truncate) long lines rather than wrapping.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -t [[4mtag[24m]  ..  --tag=[[4mtag[24m][m
+                  Find a tag.[m
+  -T [[4mtagsfile[24m] --tag-file=[[4mtagsfile[24m][m
+                  Use an alternate tags file.[m
+  -u  -U  ....  --underline-special  --UNDERLINE-SPECIAL[m
+                  Change handling of backspaces.[m
+  -V  ........  --version[m
+                  Display the version number of "less".[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K  -w  ........  --hilite-unread[m
+                  Highlight first new line after forward-screen.[m
+  -W  ........  --HILITE-UNREAD[m
+                  Highlight first new line after any forward movement.[m
+  -x [[4mN[24m[,...]]  --tabs=[[4mN[24m[,...]][m
+                  Set tab stops.[m
+  -X  ........  --no-init[m
+                  Don't use termcap init/deinit strings.[m
+  -y [[4mN[24m]  ....  --max-forw-scroll=[[4mN[24m][m
+                  Forward scroll limit.[m
+  -z [[4mN[24m]  ....  --window=[[4mN[24m][m
+                  Set size of window.[m
+  -" [[4mc[24m[[4mc[24m]]  .  --quotes=[[4mc[24m[[4mc[24m]][m
+                  Set shell quote characters.[m
+  -~  ........  --tilde[m
+                  Don't display tildes after end of file.[m
+  -# [[4mN[24m]  ....  --shift=[[4mN[24m][m
+                  Set horizontal scroll amount (0 = one half screen width).[m
+                --file-size[m
+                  Automatically determine the size of the input file.[m
+                --follow-name[m
+                  The F command changes files if the input file is renamed.[m
+                --incsearch[m
+                  Search file as each pattern character is typed in.[m
+                --line-num-width=N[m
+                  Set the width of the -N line number field to N characters.[m
+                --mouse[m
+                  Enable mouse input.[m
+                --no-keypad[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K                  Don't send termcap keypad init/deinit strings.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K                --no-histdups[m
+                  Remove duplicates from command history.[m
+                --rscroll=C[m
+                  Set the character used to mark truncated lines.[m
+                --save-marks[m
+                  Retain marks across invocations of less.[m
+                --status-col-width=N[m
+                  Set the width of the -J status column to N characters.[m
+                --use-backslash[m
+                  Subsequent options use backslash as escape char.[m
+                --use-color[m
+                  Enables colored text.[m
+                --wheel-lines=N[m
+                  Each click of the mouse wheel moves N lines.[m
+[m
+[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mLINE[0m [1mEDITING[0m[m
+[m
+        These keys can be used to edit text being entered [m
+        on the "command line" at the bottom of the screen.[m
+[m
+ RightArrow ..................... ESC-l ... Move cursor right one character.[m
+ LeftArrow ...................... ESC-h ... Move cursor left one character.[m
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.[m
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.[m
+ HOME ........................... ESC-0 ... Move cursor to start of line.[m
+ END ............................ ESC-$ ... Move cursor to end of line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[HM                  Don't send termcap keypad init/deinit strings.[m
+[30;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K END ............................ ESC-$ ... Move cursor to end of line.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K BACKSPACE ................................ Delete char to left of cursor.[m
+ DELETE ......................... ESC-x ... Delete char under cursor.[m
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.[m
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.[m
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.[m
+ UpArrow ........................ ESC-k ... Retrieve previous command line.[m
+ DownArrow ...................... ESC-j ... Retrieve next command line.[m
+ TAB ...................................... Complete filename & cycle.[m
+ SHIFT-TAB ...................... ESC-TAB   Complete filename & reverse cycle.[m
+ ctrl-L ................................... Complete filename, list all.[m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[K[7mHELP -- END -- Press g to see it again, or q when done[27m[K[H[2J[H                --use-color[m
+                  Enables colored text.[m
+                --wheel-lines=N[m
+                  Each click of the mouse wheel moves N lines.[m
+[m
+[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mLINE[0m [1mEDITING[0m[m
+[m
+        These keys can be used to edit text being entered [m
+        on the "command line" at the bottom of the screen.[m
+[m
+ RightArrow ..................... ESC-l ... Move cursor right one character.[m
+ LeftArrow ...................... ESC-h ... Move cursor left one character.[m
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.[m
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.[m
+ HOME ........................... ESC-0 ... Move cursor to start of line.[m
+ END ............................ ESC-$ ... Move cursor to end of line.[m
+ BACKSPACE ................................ Delete char to left of cursor.[m
+ DELETE ......................... ESC-x ... Delete char under cursor.[m
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.[m
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.[m
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.[m
+ UpArrow ........................ ESC-k ... Retrieve previous command line.[m
+ DownArrow ...................... ESC-j ... Retrieve next command line.[m
+ TAB ...................................... Complete filename & cycle.[m
+ SHIFT-TAB ...................... ESC-TAB   Complete filename & reverse cycle.[m
+ ctrl-L ................................... Complete filename, list all.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K [KESCESC[KOO[KDD[H[2J[H                --use-color[m
+                  Enables colored text.[m
+                --wheel-lines=N[m
+                  Each click of the mouse wheel moves N lines.[m
+[m
+[m
+ ---------------------------------------------------------------------------[m
+[m
+                          [1mLINE[0m [1mEDITING[0m[m
+[m
+        These keys can be used to edit text being entered [m
+        on the "command line" at the bottom of the screen.[m
+[m
+ RightArrow ..................... ESC-l ... Move cursor right one character.[m
+ LeftArrow ...................... ESC-h ... Move cursor left one character.[m
+ ctrl-RightArrow  ESC-RightArrow  ESC-w ... Move cursor right one word.[m
+ ctrl-LeftArrow   ESC-LeftArrow   ESC-b ... Move cursor left one word.[m
+ HOME ........................... ESC-0 ... Move cursor to start of line.[m
+ END ............................ ESC-$ ... Move cursor to end of line.[m
+ BACKSPACE ................................ Delete char to left of cursor.[m
+ DELETE ......................... ESC-x ... Delete char under cursor.[m
+ ctrl-BACKSPACE   ESC-BACKSPACE ........... Delete word to left of cursor.[m
+ ctrl-DELETE .... ESC-DELETE .... ESC-X ... Delete word under cursor.[m
+ ctrl-U ......... ESC (MS-DOS only) ....... Delete entire line.[m
+ UpArrow ........................ ESC-k ... Retrieve previous command line.[m
+ DownArrow ...................... ESC-j ... Retrieve next command line.[m
+ TAB ...................................... Complete filename & cycle.[m
+ SHIFT-TAB ...................... ESC-TAB   Complete filename & reverse cycle.[m
+ ctrl-L ................................... Complete filename, list all.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mHELP -- END -- Press g to see it again, or q when done[27m[K[K[H[2J[HM        A search pattern may begin with one or more of:[m
+[HM        ---------------------------------------------------[m
+[HM  &[4mpattern[24m          *  Display only matching lines.[m
+[HM  ESC-U                Clear search highlighting.[m
+[HM  ESC-u                Undo (toggle) search highlighting.[m
+[HM  ESC-N             *  Repeat previous search, reverse dir. & spanning files.[m
+[HM  ESC-n             *  Repeat previous search, spanning files.[m
+[HM  N                 *  Repeat previous search in reverse direction.[m
+[HM  n                 *  Repeat previous search (for [4mN[24m-th occurrence).[m
+[HM  ?[4mpattern[24m          *  Search backward for ([4mN[24m-th) matching line.[m
+[HM  /[4mpattern[24m          *  Search forward for ([4mN[24m-th) matching line.[m
+[HM[m
+[HM                          [1mSEARCHING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM        Default "half-window" is half of the screen height.[m
+[HM        Default "window" is the screen height.[m
+[HM        ---------------------------------------------------[m
+[HM  R                    Repaint screen, discarding buffered input.[m
+[HM  r  ^R  ^L            Repaint screen.[m
+[HM  ESC-F                Like F but stop when search pattern is found.[m
+[HM  F                    Forward forever; like "tail -f".[m
+[HM  ESC-{  ^LeftArrow    Left  to first column.[m
+[HM  ESC-}  ^RightArrow   Right to last column displayed.[m
+[HM  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+[HM  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+[HM  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+[HM  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+[HM  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+[HM  w                 *  Backward one window (and set window to [4mN[24m).[m
+[HM  z                 *  Forward  one window (and set window to [4mN[24m).[m
+[HM  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+[HM  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+[HM  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+[HM  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+[HM[m
+[HM                           [1mMOVING[0m[m
+[HM[m
+[HM ---------------------------------------------------------------------------[m
+[HM  q  :q  Q  :Q  ZZ     Exit.[m
+[HM  h  H                 Display this help.[m
+[HM[m
+[HM      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[HM      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+[HM      Commands marked with * may be preceded by a number, [4mN[24m.[m
+[HM[m
+[HM                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[HM[m
+[49;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mFinishing logfile... (interrupt to abort)[27m[K...skipping...
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Tue Jun 25 21:05:51 2024 -0500[m
+[m
+    Remove sensitive information from LabW3GitCloneLog.txt[m
+[m
+[33mcommit 81dab24e00795be387f91b217d13423764715fa6[m[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Mon Jun 24 00:14:02 2024 -0500[m
+[m
+    Completed the TODO part in the changeColor method in Color.java, and added the Makefile[m
+[m
+[33mcommit fa8cecbdd5984fd56f74c78a5f420da31d9c4f1c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 6468e87 228d9eb[m
+Author: tyrantRZ <zzhang2478@wisc.edu>[m
+Date:   Sun Jun 23 21:53:37 2024 -0500[m
+[m
+    Merge remote-tracking branch 'origin/main'[m
+[m
+[33mcommit 228d9ebcafe2931ec732cd2aabef165876340dde[m[m
+Author: tyrantRz <142293672+tyrantRz@users.noreply.github.com>[m
+Date:   Wed Jun 19 10:18:52 2024 +0800[m
+[m
+    Initial commit[m
+[m
+[33mcommit 6468e87584f96734912f32d8f1613a96a475ac60[m[m
+Author: zhouwisc <jzhou346@wisc.edu>[m
+Date:   Sun Jun 16 00:30:32 2024 -0500[m
+[m
+    First version committed by the instructor[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?2004h[zhibo@royal-18] (15)$ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   LabW3GitCommitLog.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be c
