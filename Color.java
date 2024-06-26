@@ -1,3 +1,8 @@
+// == CS400 Spring 2024 File Header Information ==
+// Name: Zhibo Zhang
+// Email: <zzhang2478@wisc.edu>
+// Lecturer: 001
+// Notes to Grader:
 /*
  *	Color class
  */
